@@ -55,8 +55,8 @@ WIN_COMBINATIONS = [
   end
 
   def play
-    if game.over?
-      puts "who knows"
+    if over?
+      puts "Congratulations!"
     else
       turn
     end
