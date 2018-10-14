@@ -55,12 +55,9 @@ WIN_COMBINATIONS = [
   end
 
   def play
-    if over?
-      puts "Congratulations!"
-    else
-      turn
+    while !over?
+      turn 
     end
-
   end
 
 
