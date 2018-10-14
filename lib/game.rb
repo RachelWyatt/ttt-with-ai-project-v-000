@@ -47,7 +47,7 @@ WIN_COMBINATIONS = [
 
   def turn
     input = current_player.move(board)
-    if input.to_i.between?(1,9) && (input.to_i.between?(1,9) && !taken?(input))
+    if input.to_i.between?(1,9) && (position(input) == "X" || position(input) == "O")
       puts "execute move"
     else
       turn
