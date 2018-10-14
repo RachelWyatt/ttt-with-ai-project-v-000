@@ -48,8 +48,8 @@ WIN_COMBINATIONS = [
   def turn
     input = current_player.move(board)
     if board.valid_move?(input)
-      board.update(input, player)
-      turn_count =+ 1
+      board.update(input, player = current_player)
+    #  turn_count =+ 1
     else
       turn
     end
