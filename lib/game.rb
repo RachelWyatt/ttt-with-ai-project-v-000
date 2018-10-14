@@ -56,8 +56,8 @@ WIN_COMBINATIONS = [
 
   def play
     turn if !over?
-  
-    
+
+
   end
 
 
