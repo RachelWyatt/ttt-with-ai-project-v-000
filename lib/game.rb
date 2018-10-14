@@ -54,7 +54,7 @@ WIN_COMBINATIONS = [
     end
   end
 
-  def play 
+  def play
 
   end
 
