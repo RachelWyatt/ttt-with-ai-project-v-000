@@ -48,10 +48,10 @@ WIN_COMBINATIONS = [
   def turn
     input = current_player.move(board)
     if input.valid_move?
-      #execute move
-    #else
-    #  turn
-    #end
+      puts "execute move"
+    else
+      turn
+    end
   end
 
 
