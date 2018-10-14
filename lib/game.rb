@@ -59,7 +59,9 @@ WIN_COMBINATIONS = [
       turn
     end
     if over? && current_player = "X"
-      puts "C"
+      puts "Congratulations X!"
+    elsif over? && current_player = "O"
+      puts "Congratulations O!"
     end
 
   end
