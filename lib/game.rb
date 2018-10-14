@@ -55,6 +55,7 @@ WIN_COMBINATIONS = [
   end
 
   def play
+    current_player.turn
 
   end
 
