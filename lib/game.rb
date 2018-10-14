@@ -59,7 +59,7 @@ WIN_COMBINATIONS = [
       turn
     end
     if won?
-      puts "Congratulations X!"
+      puts "Congratulations #{winner}!"
     elsif over? && current_player == "O"
       puts "Congratulations O!"
     end
