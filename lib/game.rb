@@ -59,7 +59,7 @@ WIN_COMBINATIONS = [
     if over?
       puts "who knows"
     else
-      play
+      turn
     end
 
   end
