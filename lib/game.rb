@@ -46,7 +46,7 @@ WIN_COMBINATIONS = [
   end
 
   def turn
-    input = gets.strip
+    input = move(board)
     #current_player.move(board)
     #if valid_move?(input)
       #execute move
