@@ -61,7 +61,7 @@ WIN_COMBINATIONS = [
     if won?
       puts "Congratulations #{winner}!"
     elsif draw?
-      "Cat's Game!"
+      print "Cat's Game!"
     end
 
   end
