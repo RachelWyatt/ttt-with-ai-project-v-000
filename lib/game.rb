@@ -60,8 +60,7 @@ WIN_COMBINATIONS = [
     end
     if won?
       puts "Congratulations #{winner}!"
-    elsif over? && current_player == "O"
-      puts "Congratulations O!"
+  
     end
 
   end
