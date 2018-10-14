@@ -55,7 +55,6 @@ WIN_COMBINATIONS = [
   end
 
   def play
-    turn
     if over?
       puts "who knows"
     else
