@@ -58,7 +58,10 @@ WIN_COMBINATIONS = [
     while !over?
       turn
     end
-    
+    if over? && current_player = "X"
+      puts "C"
+    end
+
   end
 
 
