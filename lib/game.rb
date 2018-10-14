@@ -58,8 +58,8 @@ WIN_COMBINATIONS = [
     turn
     if over?
       puts "who knows"
-    else 
-      play 
+    else
+      play
     end
 
   end
